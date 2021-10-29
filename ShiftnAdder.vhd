@@ -49,8 +49,6 @@ architecture Behavioral of ShiftnAdder is
       p_K => p_K
     )
     port map(
-      i_CLK   => i_CLK,
-      i_RSTn  => i_RSTn,
       i_X1    => i_SXL,
       i_X2    => i_SYL,
       i_CARRY => '0',
@@ -94,4 +92,3 @@ architecture Behavioral of ShiftnAdder is
   o_PRODUCT3 <= r_OUT;
 
 end Behavioral;
-

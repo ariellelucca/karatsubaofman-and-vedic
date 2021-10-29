@@ -9,8 +9,6 @@ entity Adder is
     p_K : in natural := 4
   );
   Port ( 
-    i_CLK   : in std_logic;
-    i_RSTn  : in std_logic;
     i_X1    : in STD_LOGIC_VECTOR(p_K-1 downto 0);
     i_X2    : in STD_LOGIC_VECTOR(p_K-1 downto 0);
     i_CARRY : in STD_LOGIC; 
@@ -30,8 +28,6 @@ architecture Behavioral of Adder is
       Addition: for i in 0 to p_K-1 generate
         F_ADDER: entity work.FullAdder 
           port map( 
-            i_CLK => i_CLK,
-            i_RSTn => i_RSTn,
             i_A    => i_X1  (i downto i), 
             i_B    => i_X2  (i downto i), 
             i_CIN  => w_CIN (i downto i),

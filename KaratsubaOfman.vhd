@@ -5,8 +5,8 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity KaratsubaOfman is
   Generic(
-    Size  : natural := 256;
-    WSize : natural := 8
+    Size  : natural := 64;
+    WSize : natural := 16
   );
   Port ( 
     i_X    : in STD_LOGIC_VECTOR(Size-1 downto 0);
@@ -109,8 +109,6 @@ architecture RecursiveArchitecture of KaratsubaOfman is
         p_K => Size/2
       )
       port map(
-	i_CLK => i_CLK,
-        i_RSTn => i_RSTn,
         i_X1    => i_X(Size/2-1 downto 0),
         i_X2    => i_X(Size-1 downto Size/2),
         i_CARRY => w_CIX,
@@ -124,8 +122,6 @@ architecture RecursiveArchitecture of KaratsubaOfman is
         p_K => Size/2
       )
       port map(
-	i_CLK => i_CLK,
-        i_RSTn => i_RSTn,
         i_X1    => i_Y(Size/2-1 downto 0),
         i_X2    => i_Y(Size-1 downto Size/2),
         i_CARRY => w_CIY,

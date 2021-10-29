@@ -49,8 +49,6 @@ architecture Behavioral of ShiftnAdder is
       p_K => p_K
     )
     port map(
-      i_CLK => i_CLK,
-      i_RSTn => i_RSTn,
       i_X1    => i_SXL,
       i_X2    => i_SYL,
       i_CARRY => '0',
@@ -65,18 +63,6 @@ architecture Behavioral of ShiftnAdder is
          '0'&i_SYL when (i_CX = '1' AND i_CY= '0') else
          (others => '0');
    
-  -- T represents CarryX(CX). CarryY(CY)
-  w_T <= i_CX AND i_CY;
-
-  -- w_S1 represents w_S with concat (2*p_K+1 downto 0, all zeros)
-  w_S1 <= w_CONCATS + (w_S & w_DES);
-
-  -- TP represents w_T (CarryX(CX). CarryY(CY)) concatenated with 
-  -- i_P (the result of KOA3) with concat (2*p_K+1 downto 0, all zeros)
-  w_TP <= w_CONCATS + (w_T & i_P);
-
-  -- PRODUCT3 represents the sum of w_TP with w_S1
-  r_OUT <= w_TP + w_S1;
   
   
     process(i_CLK, i_RSTn)
@@ -88,9 +74,23 @@ architecture Behavioral of ShiftnAdder is
         r_D4 <= '0';
         r_D5 <= (others => '0'); 
       elsif (rising_edge(i_CLK)) then
-        o_PRODUCT3 <= r_OUT;
+		  -- T represents CarryX(CX). CarryY(CY)
+  w_T <= i_CX AND i_CY;
+
+  -- w_S1 represents w_S with concat (2*p_K+1 downto 0, all zeros)
+  w_S1 <= w_CONCATS + (w_S & w_DES);
+
+  -- TP represents w_T (CarryX(CX). CarryY(CY)) concatenated with 
+  -- i_P (the result of KOA3) with concat (2*p_K+1 downto 0, all zeros)
+  w_TP <= w_CONCATS + (w_T & i_P);
+  
+  -- PRODUCT3 represents the sum of w_TP with w_S1
+  r_OUT <= w_TP + w_S1;
       end if;
   end process;
+  
+  o_PRODUCT3 <= r_OUT;
 
 end Behavioral;
 
+vc

@@ -29,7 +29,7 @@ architecture Behavioral of FullAdder is
           r_COUT <= ((i_A AND i_B) OR (i_CIN AND i_A) OR (i_CIN AND i_B));
           r_RES  <= i_A XOR i_B XOR i_CIN ;
         end if;
-		       o_RES  <= r_RES;
+     o_RES  <= r_RES;
      o_COUT <= r_COUT;
       end process;
 
