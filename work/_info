@@ -1,0 +1,880 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/_FILES/VHDL/Nedjah_KOM
+Eadder
+Z0 w1625210746
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/_FILES/VHDL/Nosso
+Z7 8Adder.vhd
+Z8 FAdder.vhd
+l0
+L7
+VWjD6M2eSbZDNhXGm`>5Lm2
+!s100 WdhnbiddlA^6Ka<a`P9jW3
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1625211573
+!i10b 1
+Z11 !s108 1625211573.000000
+Z12 !s90 -reportprogress|300|Adder.vhd|
+Z13 !s107 Adder.vhd|
+!i113 1
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+Z15 DEx4 work 9 fulladder 0 22 fWemb7?3@9gT^EigZ7WRe1
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 5 adder 0 22 WjD6M2eSbZDNhXGm`>5Lm2
+l29
+L23
+V5lSlD[9KhKVza20zb<o<00
+!s100 [zgGjPZL9zGV]b2IR6_>U3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+Efourbitsmultiplier
+Z17 w1606267457
+R1
+R2
+R3
+R4
+R5
+R6
+Z18 8C:/_FILES/VHDL/Nosso/FourBitsMultiplier.vhd
+Z19 FC:/_FILES/VHDL/Nosso/FourBitsMultiplier.vhd
+l0
+L7
+V589`0D[dUVJzz]999aJ0S3
+!s100 VhKn1DXL=OXa?eYiV?ad_2
+R9
+32
+Z20 !s110 1624323658
+!i10b 1
+Z21 !s108 1624323658.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/FourBitsMultiplier.vhd|
+Z23 !s107 C:/_FILES/VHDL/Nosso/FourBitsMultiplier.vhd|
+!i113 1
+Z24 o-work work -2002 -explicit
+R14
+Abehavioral
+Z25 DEx4 work 15 threetooneadder 0 22 Gc?5K[b5N9h45;B<4i7jn0
+R1
+R2
+R3
+R4
+R5
+Z26 DEx4 work 18 fourbitsmultiplier 0 22 589`0D[dUVJzz]999aJ0S3
+l24
+L16
+VAjGDmbm@jc>JW;U>?M[>:1
+!s100 X>TE9Qhf@1;gb:e0<lDM:2
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R24
+R14
+Efulladder
+Z27 w1625211179
+R4
+R5
+R6
+Z28 8FullAdder.vhd
+Z29 FFullAdder.vhd
+l0
+L4
+VfWemb7?3@9gT^EigZ7WRe1
+!s100 i;]h`>6;^kFFjb65X8fC73
+R9
+32
+Z30 !s110 1625211570
+!i10b 1
+Z31 !s108 1625211570.000000
+Z32 !s90 -reportprogress|300|FullAdder.vhd|
+Z33 !s107 FullAdder.vhd|
+!i113 1
+R14
+Abehavioral
+R4
+R5
+R15
+l22
+L16
+V`k^jcIiBOVoCKOPTW__;>0
+!s100 6Ci;]AO0?XTUm_]FWeIz70
+R9
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R14
+Ekaratsuba_tbe
+Z34 w1619206713
+R1
+R2
+R3
+R4
+R5
+R6
+Z35 8C:/_FILES/VHDL/Nosso/Karatsuba_TBE.vhd
+Z36 FC:/_FILES/VHDL/Nosso/Karatsuba_TBE.vhd
+l0
+L6
+V;JaePFQ60W67EAY?ooGRf1
+!s100 `a@1@0WUle[K0LNU9H6M90
+R9
+32
+Z37 !s110 1625111286
+!i10b 1
+Z38 !s108 1625111286.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/Karatsuba_TBE.vhd|
+Z40 !s107 C:/_FILES/VHDL/Nosso/Karatsuba_TBE.vhd|
+!i113 1
+R24
+R14
+Aarch_1
+Z41 DEx4 work 14 karatsubaofman 0 22 6V]E5Xijfn=K6?4ZC;04E0
+R1
+R2
+R3
+R4
+R5
+DEx4 work 13 karatsuba_tbe 0 22 ;JaePFQ60W67EAY?ooGRf1
+l19
+L13
+VH:>aE?ZUng4ZMKPf;J:5P3
+!s100 C:iY>LCE@eRNLfE8f?dAn2
+R9
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R24
+R14
+Ekaratsubaofman
+Z42 w1625211928
+R1
+R2
+R3
+R4
+R5
+R6
+Z43 8KaratsubaOfman.vhd
+Z44 FKaratsubaOfman.vhd
+l0
+L6
+V6V]E5Xijfn=K6?4ZC;04E0
+!s100 e5ef2`5cHCV0R^UWeKgGS3
+R9
+32
+Z45 !s110 1625211932
+!i10b 1
+Z46 !s108 1625211932.000000
+Z47 !s90 -reportprogress|300|KaratsubaOfman.vhd|
+Z48 !s107 KaratsubaOfman.vhd|
+!i113 1
+R14
+Arecursivearchitecture
+Z49 DEx4 work 16 shiftersubnadder 0 22 OW8nfUohHaBkP5meDc7:c0
+Z50 DEx4 work 11 shiftnadder 0 22 OLW>Z3H9[S^`WlU1anO9j0
+R16
+Z51 DEx4 work 14 vedicmult16x16 0 22 c0XfBf1aH_IiBnnVzi>122
+Z52 DEx4 work 12 vedicmult8x8 0 22 iXZ5UEQ__c_W<[`?RV<Ik3
+Z53 DEx4 work 12 vedicmult4x4 0 22 A4e3^7ZXL[LR]3QEOz8[g2
+R1
+R2
+R3
+R4
+R5
+R41
+l49
+L20
+Z54 Vl5HQ;0G@c><_ZDkNU:K4z2
+Z55 !s100 JHeWEPZm;gP==dDBWU3HS1
+R9
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R14
+Eonebitmultiplier
+Z56 w1598885979
+R1
+R2
+R3
+R4
+R5
+R6
+Z57 8C:/_FILES/VHDL/Nosso/OneBitMultiplier.vhd
+Z58 FC:/_FILES/VHDL/Nosso/OneBitMultiplier.vhd
+l0
+L7
+VVI2M:8zTlYgZmGljDRc;Z2
+!s100 lgFVj=Y3Lb:cbEfQ9M6<]3
+R9
+32
+R20
+!i10b 1
+R21
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/OneBitMultiplier.vhd|
+Z60 !s107 C:/_FILES/VHDL/Nosso/OneBitMultiplier.vhd|
+!i113 1
+R24
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+DEx4 work 16 onebitmultiplier 0 22 VI2M:8zTlYgZmGljDRc;Z2
+l20
+L19
+Vh`aK^RM0Y>ZjRF>:=XWcB1
+!s100 JFenbbA]5ZJY3aGdzKP[20
+R9
+32
+R20
+!i10b 1
+R21
+R59
+R60
+!i113 1
+R24
+R14
+Eproduct3
+w1603414526
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/_FILES/VHDL/Nosso/product3.vhd
+FC:/_FILES/VHDL/Nosso/product3.vhd
+l0
+L7
+V9`_iJL;cmimP;Z26>li[31
+!s100 S@DI7z`Igd]HVc3R6laTC2
+R9
+32
+!s110 1614291101
+!i10b 1
+!s108 1614291101.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/product3.vhd|
+!s107 C:/_FILES/VHDL/Nosso/product3.vhd|
+!i113 1
+R24
+R14
+Ereg
+Z61 w1599162536
+R4
+R5
+R6
+Z62 8C:/_FILES/VHDL/Nosso/Reg.vhd
+Z63 FC:/_FILES/VHDL/Nosso/Reg.vhd
+l0
+L4
+VMB]9MNVno:`TMER1`MfVn1
+!s100 ffMl[:53>EGb]_5W2F63b3
+R9
+32
+R20
+!i10b 1
+R21
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/Reg.vhd|
+Z65 !s107 C:/_FILES/VHDL/Nosso/Reg.vhd|
+!i113 1
+R24
+R14
+Abehavioral
+R4
+R5
+DEx4 work 3 reg 0 22 MB]9MNVno:`TMER1`MfVn1
+l18
+L17
+VEH@0jHSN1bnPIKN;TT9XF1
+!s100 KifUKg@@NDM36nK=]eADH1
+R9
+32
+R20
+!i10b 1
+R21
+R64
+R65
+!i113 1
+R24
+R14
+Ereg_ps
+Z66 w1624939514
+R4
+R5
+R6
+Z67 8C:/_FILES/VHDL/Nosso/reg_ps.vhd
+Z68 FC:/_FILES/VHDL/Nosso/reg_ps.vhd
+l0
+L4
+VY]LY9;R5?6MW:Q_XA_SPj0
+!s100 =bZh<H_@^0h3O5OVe>9LU2
+R9
+32
+Z69 !s110 1625111287
+!i10b 1
+Z70 !s108 1625111287.000000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/reg_ps.vhd|
+Z72 !s107 C:/_FILES/VHDL/Nosso/reg_ps.vhd|
+!i113 1
+R24
+R14
+Aarch_1
+R4
+R5
+Z73 DEx4 work 6 reg_ps 0 22 Y]LY9;R5?6MW:Q_XA_SPj0
+l19
+L17
+VGc4X`bc=i4JhIV<3;A]m90
+!s100 GIHSjmi[X6J@BVQSnen?=0
+R9
+32
+R69
+!i10b 1
+R70
+R71
+R72
+!i113 1
+R24
+R14
+Ereg_sp
+Z74 w1624939511
+R4
+R5
+R6
+Z75 8C:/_FILES/VHDL/Nosso/reg_sp.vhd
+Z76 FC:/_FILES/VHDL/Nosso/reg_sp.vhd
+l0
+L4
+VW@:dg;W4oIPc`ROd5TR;I1
+!s100 O0Yan^gjJFQD5A4ceWfdL1
+R9
+32
+R69
+!i10b 1
+R70
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/reg_sp.vhd|
+Z78 !s107 C:/_FILES/VHDL/Nosso/reg_sp.vhd|
+!i113 1
+R24
+R14
+Aarch_1
+R4
+R5
+Z79 DEx4 work 6 reg_sp 0 22 W@:dg;W4oIPc`ROd5TR;I1
+l18
+L16
+VEEheMnA@EN8NaYhnD_Bnn1
+!s100 fG8IM_Uk;R2VBB<mc`5^o0
+R9
+32
+R69
+!i10b 1
+R70
+R77
+R78
+!i113 1
+R24
+R14
+Abehavioral
+R4
+R5
+DEx4 work 6 reg_sp 0 22 cC0A7Yd:jeWYK9<n@Ba]G0
+l18
+L15
+VW`chV^HUd0NQjLX2QEaXb2
+!s100 X:J>5c0D4HmO5[98>DjQe1
+R9
+32
+!s110 1624515505
+!i10b 1
+!s108 1624515505.000000
+!s90 -reportprogress|300|reg_sp.vhd|
+!s107 reg_sp.vhd|
+!i113 1
+R14
+w1624515669
+Freg_sp.vhd
+8reg_sp.vhd
+Erkm
+Z80 w1600799569
+R1
+R2
+R3
+R4
+R5
+R6
+Z81 8C:/_FILES/VHDL/Nosso/RKM.vhd
+Z82 FC:/_FILES/VHDL/Nosso/RKM.vhd
+l0
+L7
+Vi:HL9A0M5Wnh3moBNQcLc3
+!s100 5L9lGlcF^cGYgnF=koD7]1
+R9
+32
+Z83 !s110 1624323659
+!i10b 1
+R21
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/RKM.vhd|
+Z85 !s107 C:/_FILES/VHDL/Nosso/RKM.vhd|
+!i113 1
+R24
+R14
+Arecursivearchitecture
+R26
+R1
+R2
+R3
+R4
+R5
+DEx4 work 3 rkm 0 22 i:HL9A0M5Wnh3moBNQcLc3
+l38
+L18
+VmXEQ]Edcz=m2:6YRPm^0T1
+!s100 ;S[@C<lKCk3V9;kWBFT:z1
+R9
+32
+R83
+!i10b 1
+R21
+R84
+R85
+!i113 1
+R24
+R14
+Eshiftersubnadder
+Z86 w1625112920
+R1
+R2
+R3
+R4
+R5
+R6
+Z87 8ShifterSubnAdder.vhd
+Z88 FShifterSubnAdder.vhd
+l0
+L10
+VOW8nfUohHaBkP5meDc7:c0
+!s100 g1:_;V9S<>WJn16>l^bBM2
+R9
+32
+Z89 !s110 1625114717
+!i10b 1
+Z90 !s108 1625114717.000000
+Z91 !s90 -reportprogress|300|ShifterSubnAdder.vhd|
+Z92 !s107 ShifterSubnAdder.vhd|
+!i113 1
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R49
+l31
+L24
+V`oQUKAfjM_odMoHggQ>R62
+!s100 d?eH>5o_^4cHc7`J0ak@X1
+R9
+32
+R89
+!i10b 1
+R90
+R91
+R92
+!i113 1
+R14
+Eshiftnadder
+Z93 w1625114798
+R1
+R2
+R3
+R4
+R5
+R6
+Z94 8ShiftnAdder.vhd
+Z95 FShiftnAdder.vhd
+l0
+L11
+VOLW>Z3H9[S^`WlU1anO9j0
+!s100 6JSzC9lTIc02<oHESac1:1
+R9
+32
+Z96 !s110 1625114801
+!i10b 1
+Z97 !s108 1625114801.000000
+Z98 !s90 -reportprogress|300|ShiftnAdder.vhd|
+Z99 !s107 ShiftnAdder.vhd|
+!i113 1
+R14
+Abehavioral
+R16
+R1
+R2
+R3
+R4
+R5
+R50
+l43
+L27
+VEO3dn]Qz^k3;`OAEfJ?cM2
+!s100 1FHVNnOJ7i]42[:fPYR2R2
+R9
+32
+R96
+!i10b 1
+R97
+R98
+R99
+!i113 1
+R14
+Ethreebitmultiplier
+Z100 w1602214051
+R1
+R2
+R3
+R4
+R5
+R6
+Z101 8C:/_FILES/VHDL/Nosso/ThreeBitMultiplier.vhd
+Z102 FC:/_FILES/VHDL/Nosso/ThreeBitMultiplier.vhd
+l0
+L6
+VKg3oRMm;IJ4azAlCz;2XZ3
+!s100 WNWUX:P`><5mOO=I51k`E0
+R9
+32
+R83
+!i10b 1
+Z103 !s108 1624323659.000000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/ThreeBitMultiplier.vhd|
+Z105 !s107 C:/_FILES/VHDL/Nosso/ThreeBitMultiplier.vhd|
+!i113 1
+R24
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+DEx4 work 18 threebitmultiplier 0 22 Kg3oRMm;IJ4azAlCz;2XZ3
+l48
+L14
+V7iF>YzQ>HP1@d]MGTAZQb1
+!s100 ^GJa?PNoGRMPfGhc<4;3>3
+R9
+32
+R83
+!i10b 1
+R103
+R104
+R105
+!i113 1
+R24
+R14
+Ethreetooneadder
+Z106 w1602731449
+R1
+R2
+R3
+R4
+R5
+R6
+Z107 8C:/_FILES/VHDL/Nosso/ThreeToOneAdder.vhd
+Z108 FC:/_FILES/VHDL/Nosso/ThreeToOneAdder.vhd
+l0
+L7
+VGc?5K[b5N9h45;B<4i7jn0
+!s100 lmWeZSTHhaib[zK_lGlBX3
+R9
+32
+R20
+!i10b 1
+Z109 !s108 1624323657.000000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/ThreeToOneAdder.vhd|
+Z111 !s107 C:/_FILES/VHDL/Nosso/ThreeToOneAdder.vhd|
+!i113 1
+R24
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R25
+l22
+L17
+VLLNORc>Ml3?a@KUzWc0VF1
+!s100 Ti[KKOF1AdC^@F8Ik:U@D3
+R9
+32
+R20
+!i10b 1
+R109
+R110
+R111
+!i113 1
+R24
+R14
+Etop
+Z112 w1625044488
+R1
+R2
+R3
+R4
+R5
+R6
+Z113 8C:/_FILES/VHDL/Nosso/top.vhd
+Z114 FC:/_FILES/VHDL/Nosso/top.vhd
+l0
+L6
+VhjdjWDk:U59D281W56f863
+!s100 [DzoFCDbe3k0B2;fKk7OP1
+R9
+32
+R69
+!i10b 1
+R70
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/top.vhd|
+Z116 !s107 C:/_FILES/VHDL/Nosso/top.vhd|
+!i113 1
+R24
+R14
+Abehavioral
+R73
+Z117 DEx4 work 14 karatsubaofman 0 22 oPi7mY4;5?j[LP6kUA13S2
+R79
+R1
+R2
+R3
+R4
+R5
+DEx4 work 3 top 0 22 hjdjWDk:U59D281W56f863
+l31
+L27
+VF19Z]U2=YcLEIPRaLU7560
+!s100 VoF_KMTK`>1]6B8L6ecMM1
+R9
+32
+R69
+!i10b 1
+R70
+R115
+R116
+!i113 1
+R24
+R14
+Etop_tb
+Z118 w1624818820
+R1
+R2
+R3
+R4
+R5
+R6
+Z119 8C:/_FILES/VHDL/Nosso/top_tb.vhd
+Z120 FC:/_FILES/VHDL/Nosso/top_tb.vhd
+l0
+L6
+Vzd7V3lCb^bIQ62`5edF<E0
+!s100 HXooUdaXo[PoC0V5M73=22
+R9
+32
+R69
+!i10b 1
+R70
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nosso/top_tb.vhd|
+Z122 !s107 C:/_FILES/VHDL/Nosso/top_tb.vhd|
+!i113 1
+R24
+R14
+Aarch_1
+R73
+R117
+R79
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 top_tb 0 22 zd7V3lCb^bIQ62`5edF<E0
+l25
+L14
+VUVQPYjU6[G[Xl^C3XWM_N3
+!s100 F<05A[DGDGhj9n^c4LgH[3
+R9
+32
+R69
+!i10b 1
+R70
+R121
+R122
+!i113 1
+R24
+R14
+Evedicmult16x16
+Z123 w1625209859
+R2
+R3
+R4
+R5
+R6
+Z124 8VedicMult16x16.vhd
+Z125 FVedicMult16x16.vhd
+l0
+L5
+Vc0XfBf1aH_IiBnnVzi>122
+!s100 h]=zGW0lW9Y:fF=lIBD[b3
+R9
+32
+Z126 !s110 1625209886
+!i10b 1
+Z127 !s108 1625209886.000000
+Z128 !s90 -reportprogress|300|VedicMult16x16.vhd|
+Z129 !s107 VedicMult16x16.vhd|
+!i113 1
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+R51
+l20
+L15
+VPb^;5>8^V_mAn<:;[B_ek3
+!s100 _f`Ed98R:doi6B16l4@Wc0
+R9
+32
+R126
+!i10b 1
+R127
+R128
+R129
+!i113 1
+R14
+Evedicmult4x4
+Z130 w1625209762
+R2
+R3
+R4
+R5
+R6
+Z131 8VedicMult4x4.vhd
+Z132 FVedicMult4x4.vhd
+l0
+L5
+VA4e3^7ZXL[LR]3QEOz8[g2
+!s100 aOlcHc038M=HJ_g0`XJS21
+R9
+32
+Z133 !s110 1625209870
+!i10b 1
+Z134 !s108 1625209870.000000
+Z135 !s90 -reportprogress|300|VedicMult4x4.vhd|
+Z136 !s107 VedicMult4x4.vhd|
+!i113 1
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+R53
+l21
+L16
+VJ<9:nG?o_AzR[<kmh1PTE0
+!s100 [Qn3zzPO]iCRS_6gQ<lVL0
+R9
+32
+R133
+!i10b 1
+R134
+R135
+R136
+!i113 1
+R14
+Evedicmult8x8
+Z137 w1625209819
+R2
+R3
+R4
+R5
+R6
+Z138 8VedicMult8x8.vhd
+Z139 FVedicMult8x8.vhd
+l0
+L5
+ViXZ5UEQ__c_W<[`?RV<Ik3
+!s100 lCRzJiS]i4Cd_fZI[6nke2
+R9
+32
+Z140 !s110 1625209878
+!i10b 1
+Z141 !s108 1625209878.000000
+Z142 !s90 -reportprogress|300|VedicMult8x8.vhd|
+Z143 !s107 VedicMult8x8.vhd|
+!i113 1
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+R52
+l20
+L15
+V:c>AO[8dT@jH5_h_MmWc:2
+!s100 X8]D`zFL_B2:S=<dM4lIK0
+R9
+32
+R140
+!i10b 1
+R141
+R142
+R143
+!i113 1
+R14
