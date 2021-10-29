@@ -18,9 +18,7 @@ architecture Behavioral of VedicMult8x8 is
   signal w_AB1  : STD_LOGIC_VECTOR(15 downto 0) := (others => '0');   -- Vector that contains the result of the multiplication
 
   begin
-        process(i_CLK, i_RSTn)
-    begin
-      if  (rising_edge(i_CLK)) then
+
     -- Computes i_A(0) * i_B(0)
     w_R1(0)(2 downto 0) <=  "000" + (i_A(0 downto 0) AND i_B(0 downto 0));
     w_AB1(0 downto 0)  <= w_R1(0)(0 downto 0);
@@ -146,10 +144,13 @@ architecture Behavioral of VedicMult8x8 is
     w_R1(14)(2 downto 0)   <= "000" + (i_A(7 downto 7) AND i_B(7 downto 7)) +
 			     	  "000" + w_R1(13)(2 downto 1);
     w_AB1(15 downto 14)  <= w_R1(14)(1 downto 0);
-
-	 	     end if;
-  end process;
-    -- Final result
-    o_AB <= w_AB1;
+    process(i_CLK, i_RSTn)
+      begin
+        if  (rising_edge(i_CLK)) then
+          -- Final result
+          o_AB <= w_AB1;
+        end if;
+    end process;
+    
 
 end Behavioral;

@@ -3,9 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity VedicMult4x4 is
-  Port ( 
-      i_CLK     : in std_logic; 			   -- Clock
-    i_RSTn    : in std_logic; 			   -- Reset
+  Port (
     i_A   : in STD_LOGIC_VECTOR(3 downto 0);
     i_B   : in STD_LOGIC_VECTOR(3 downto 0);
     o_AB  : out STD_LOGIC_VECTOR(7 downto 0) := (others => '0')
@@ -75,13 +73,8 @@ architecture Behavioral of VedicMult4x4 is
 
     w_AB1(7 downto 6)  <= w_R1(16 downto 15);
 
-   process(i_CLK, i_RSTn)
-    begin
-      if  (rising_edge(i_CLK)) then
-        -- Final result
-        o_AB <= w_AB1;
-      end if;
-   end process;
+    -- Final result
+    o_AB <= w_AB1;
 
 
 end Behavioral;

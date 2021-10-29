@@ -4,8 +4,6 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity VedicMult16x16 is
   Port ( 
-    i_CLK     : in std_logic; 			   -- Clock
-    i_RSTn    : in std_logic; 			   -- Reset
     i_A  : in STD_LOGIC_VECTOR(15 downto 0);
     i_B  : in STD_LOGIC_VECTOR(15 downto 0);
     o_AB : out STD_LOGIC_VECTOR(31 downto 0)
@@ -432,13 +430,8 @@ architecture Behavioral of VedicMult16x16 is
 			     	  "00000" + w_R1(29)(4 downto 1);
 
     w_AB1(31 downto 30)  <= w_R1(30)(1 downto 0);
-    process(i_CLK, i_RSTn)
-      begin
-        if  (rising_edge(i_CLK)) then
-          -- FINAL
-          o_AB <= w_AB1;
-	end if;
-    end process;
-
+   
+    -- FINAL
+    o_AB <= w_AB1;
 
 end Behavioral;

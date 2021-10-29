@@ -3,9 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity VedicMult8x8 is
-  Port ( 
-    i_CLK     : in std_logic; 			   -- Clock
-    i_RSTn    : in std_logic; 			   -- Reset
+  Port (
     i_A  : in STD_LOGIC_VECTOR(7 downto 0);
     i_B  : in STD_LOGIC_VECTOR(7 downto 0);
     o_AB : out STD_LOGIC_VECTOR(15 downto 0)
@@ -144,13 +142,10 @@ architecture Behavioral of VedicMult8x8 is
     w_R1(14)(2 downto 0)   <= "000" + (i_A(7 downto 7) AND i_B(7 downto 7)) +
 			     	  "000" + w_R1(13)(2 downto 1);
     w_AB1(15 downto 14)  <= w_R1(14)(1 downto 0);
-    process(i_CLK, i_RSTn)
-      begin
-        if  (rising_edge(i_CLK)) then
-          -- Final result
-          o_AB <= w_AB1;
-        end if;
-    end process;
+
+    -- Final result
+    o_AB <= w_AB1;
+
     
 
 end Behavioral;

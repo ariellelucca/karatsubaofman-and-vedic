@@ -19,9 +19,7 @@ architecture Behavioral of VedicMult4x4 is
   signal o_COUT  : STD_LOGIC_VECTOR(14 downto 0) := (others => '0'); -- Carry out of the sum
 
   BEGIN 
-        process(i_CLK, i_RSTn)
-    begin
-      if  (rising_edge(i_CLK)) then
+
     -- Computes i_A(0) * i_B(0)
     w_AB1(0 downto 0)  <= (i_A(0 downto 0) AND i_B(0 downto 0));  
     o_COUT(0 downto 0) <= "0";
@@ -77,9 +75,13 @@ architecture Behavioral of VedicMult4x4 is
 
     w_AB1(7 downto 6)  <= w_R1(16 downto 15);
 
-	 	     end if;
-  end process;
-    -- Final result
-    o_AB <= w_AB1;
+   process(i_CLK, i_RSTn)
+    begin
+      if  (rising_edge(i_CLK)) then
+        -- Final result
+        o_AB <= w_AB1;
+      end if;
+   end process;
+
 
 end Behavioral;
