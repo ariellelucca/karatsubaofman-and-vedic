@@ -5,9 +5,9 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity top is
   Generic(
-    Size  : natural := 128;
-    WSize : natural := 8;
-    PSize: natural := 8
+    Size  : natural := 64;
+    WSize : natural := 16;
+    PSize: natural := 16
   );
   Port ( 
    -- i_X     : in  STD_LOGIC_VECTOR(Size-1 downto 0);
