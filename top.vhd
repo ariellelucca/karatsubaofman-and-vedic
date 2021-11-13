@@ -5,7 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity top is
   Generic(
-    Size  : natural := 256;
+    Size  : natural := 64;
     WSize : natural := 8;
     PSize: natural := 8
   );
